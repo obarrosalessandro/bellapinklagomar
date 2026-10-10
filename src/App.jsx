@@ -190,10 +190,10 @@ const Hero = () => {
 
           <div className="relative">
             {/* Imagem Profissional Injetada - Link Estável Unsplash com Fallback */}
-            <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative">
+            <div className="aspect-[16/10] rounded-2xl overflow-hidden shadow-2xl relative">
               <img
-                src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=1000&q=80"
-                onError={(e) => { e.target.src = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1250' viewBox='0 0 1000 1250'%3E%3Crect fill='%23F8DDE7' width='1000' height='1250'/%3E%3Ctext fill='%23B72C68' font-family='sans-serif' font-size='40' font-weight='bold' x='50%25' y='50%25' text-anchor='middle' dominant-baseline='middle'%3EBella Pink%3C/text%3E%3C/svg%3E" }}
+                src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=1200&q=80"
+                onError={(e) => { e.target.src = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='750' viewBox='0 0 1200 750'%3E%3Crect fill='%23F8DDE7' width='1200' height='750'/%3E%3Ctext fill='%23B72C68' font-family='sans-serif' font-size='40' font-weight='bold' x='50%25' y='50%25' text-anchor='middle' dominant-baseline='middle'%3EBella Pink%3C/text%3E%3C/svg%3E" }}
                 alt="Cosméticos Bella Pink - Vidros elegantes de perfume e cremes"
                 className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
                 loading="eager"
