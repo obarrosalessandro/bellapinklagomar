@@ -224,8 +224,8 @@ const Hero = () => {
 const Categorias = () => {
   const cats = [
     { nome: "Perfumaria e Splash", desc: "Fragrâncias marcantes", img: "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=500&q=80" },
-    { nome: "Maquiagem", desc: "Realce sua essência", img: "https://images.unsplash.com/photo-1596462502278-27bf85033e5a?auto=format&fit=crop&w=500&q=80" },
-    { nome: "Cuidados Corpo", desc: "Esfoliantes e cremes", img: "https://images.unsplash.com/photo-1608248593842-8021c64795e1?auto=format&fit=crop&w=500&q=80" },
+    { nome: "Maquiagem", desc: "Realce sua essência", img: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=500&q=80" },
+    { nome: "Cuidados Corpo", desc: "Esfoliantes e cremes", img: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=500&q=80" },
     { nome: "Presentes", desc: "Kits especiais", img: "https://images.unsplash.com/photo-1512446816042-444d641267d4?auto=format&fit=crop&w=500&q=80" }
   ];
 
@@ -272,7 +272,7 @@ const Destaques = () => {
   const destaques = [
     { nome: "Gloss Labial Cores Intensas", marca: "Linha Premium", categoria: "Gloss Labial", label: "Novo", img: "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=400&q=80" },
     { nome: "Esfoliante Corporal Renovador", marca: "Skincare", categoria: "Corpo", label: "Destaque", img: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=400&q=80" },
-    { nome: "Body Splash Frescor Diário 200ml", marca: "Essência", categoria: "Perfumaria", label: "", img: "https://images.unsplash.com/photo-1595425970377-c9703bc48bbf?auto=format&fit=crop&w=400&q=80" },
+    { nome: "Body Splash Frescor Diário 200ml", marca: "Essência", categoria: "Perfumaria", label: "", img: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=400&q=80" },
     { nome: "Kit Presenteável Autocuidado", marca: "Boutique", categoria: "Kits", label: "Oferta", img: "https://images.unsplash.com/photo-1599305090598-fe179d501227?auto=format&fit=crop&w=400&q=80" },
   ];
 
